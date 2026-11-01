@@ -1,0 +1,3 @@
+# 数据文件不做换行转换，避免 PDS 读取 $readmemh 时出现差异
+*.hex -text
+*.dat -text

@@ -1,0 +1,42 @@
+# ---- PDS / 综合构建产物 ----
+generate_bitstream/
+generate_ipcore/
+*.sbit
+*.sfc
+*.bit
+*.bin
+*.rbf
+*.log
+*.jou
+*.str
+*.srs
+*.pnr
+*.pwr
+*.trs
+*.html.rpt
+
+# ---- PDS 自动生成的中间文件 ----
+*_backup_*/
+*.bak
+*.bak_*
+*.ok*
+*.as31p5_*
+.ipc_done
+*.pds.tmp
+pds_*.tmp/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- 压缩包 ----
+*.zip
+*.rar
+*.7z
